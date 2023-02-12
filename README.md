@@ -11,7 +11,7 @@ This is a template that can be used for training multiple concepts and regulariz
 | Directory                | Description                                                                                          |
 |--------------------------|------------------------------------------------------------------------------------------------------|
 | `image_dir`              | contains all input images and captioning files, prefixed by the total number of epoch per image      |
-| `reg_dir`                | contains all regularations images per concept, prefixed by the total number of repeats per reg image |
+| `reg_dir`                | contains all regularization images per concept, prefixed by the total number of repeats per reg image |
 | `log`                    | records of each training log                                                                         |
 | `output`                 | the final output binary (safesensor, pt, etc)                                                        |
 | `config_v1_example.json` | the config for the training session (rename to whatever you want)                                    |
